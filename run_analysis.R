@@ -1,7 +1,6 @@
 ############# STEP 0  : LIBRARIES
 
 library(dplyr)
-library(tidyr)
 
 ######################
 ############# STEP 1  : CREATE ONE DATASET
