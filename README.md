@@ -31,10 +31,38 @@ Caps are lowered and points subtracted of the name of the variables.
 Using the group_by and summarize power of the dplyr package, the dataset is easily summarized (taking means) by activity and subject into a tidy dataset, which is finally written to a txt file. 
 
 
+## Code book
 
+### activity 
 
+Categorical variable. Categories (levels) : 
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING
 
+### subject
 
+Categorical variable identifying each volunteer taking part in the experiments. The group makes a total of 30 volunteers (levels : 1 to 30). 
 
+### measurements variables
 
+Generally speaking, the features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
+
+In particular : 
+
+* prefix 't' to denote time
+* "Jerk" signals : the body linear acceleration and angular velocity were derived in time
+* prefix 'f' to indicate frequency domain signals
+* "mean" to indicate mean value
+* "std" to indicated standart deviation
+* "bodyacc" to denote the body acceleration signal obtained by subtracting the gravity from the total acceleration.
+* "bodygyro" to denote the angular velocity vector measured by the gyroscope.
+
+Concerning the units : 
+
+* The linear acceleration variables are in standard gravity units 'g'.
+* The angular acceleration variables are in radians/second.
 
